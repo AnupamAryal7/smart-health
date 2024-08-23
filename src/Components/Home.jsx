@@ -99,11 +99,11 @@ const Home = () => {
 
                  <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6'>Appointment with the best doctors of your choice</p>
               </div>
-
+              <Link to={"/appointment"}>
               <div className='p-7'>
                 <button className='bg-indigo-700 text-white p-2 mt-[10px] rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Schedule now</button>
               </div>
-           
+              </Link>
           </div>
 
         </div>
