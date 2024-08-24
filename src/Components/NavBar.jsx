@@ -10,8 +10,6 @@ const NavBar = () => {
         { name: 'Consult now', path: '/consult' },
         { name: 'Book Appointment', path: '/appointment' },
         { name: 'Health Packages', path: '/packages' },
-        {name: 'Login', path:'/login'},
-        {name: 'signup', path:'/signup'},
     ];
 
     const handleClick = () => {

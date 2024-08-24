@@ -15,7 +15,7 @@ const BookAppointment = () => {
       <h2 className="text-2xl font-semibold mb-4">Book Appointment</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2">Name</label>
+          <label className="block text-gray-700 mb-2">Doctor Name</label>
           <input
             type="text"
             className="p-2 border border-gray-300 rounded w-full"
